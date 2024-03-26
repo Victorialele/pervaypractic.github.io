@@ -1,0 +1,323 @@
+.teatr{
+    position: $ab;
+    border: $bebe;
+    top: 102%;
+    width: 8%;
+    margin-left: 45%;
+    
+}
+.o{
+    color: $goldye;
+    font-size: $size;
+    font-weight: $small;
+}
+.teatre{
+    font-size: $size;
+    font-weight: $small;
+}
+h2{
+    color: $cl;
+    font-weight: 400;
+    font-size: 20px;
+    position: $ab;
+    top: 110%;
+    margin-left: 18%;
+
+}
+.text2{
+    position: $ab;
+    color: $cl;
+    font-size: $ii;
+    top: 115%;
+    margin-left: 18%;
+}
+.cifri{
+    position: $ab;
+    width: 13%;
+    height: 25%;
+    margin-left: 45.5%;
+    top: 110%;
+}
+.bashnya{
+    position: $ab;
+    width: 17%;
+    margin-left: 60%;
+    top: 110%;
+}
+.postanovki{
+    position: $ab;
+    border: $bebe;
+    width: 16%;
+    top: 150%;
+    margin-left: $center;
+}
+.nashi{
+    color: $goldye;
+    font-size: $size;
+    font-weight: $small;
+}
+.post{
+    font-size: $size;
+    font-weight: $small;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border: $bebe;
+    width: auto;
+}
+.four{
+    cursor: pointer;
+    width: 100%;
+    top: 125%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width: 1080px){
+    .teatr{
+        position: $ab;
+        border: $bebe;
+        top: 113%;
+        width: 10%;
+        margin-left: 45%;
+        
+    }
+    .o{
+        color: $goldye;
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .teatre{
+        font-size: $size2;
+        font-weight: $small;
+    }
+    h2{
+        color: $cl;
+        font-weight: 400;
+        font-size: 15px;
+        position: $ab;
+        top: 120%;
+        margin-left: 18%;
+    
+    }
+    .text2{
+        position: $ab;
+        color: $cl;
+        font-size: $i;
+        top: 125%;
+        margin-left: 18%;
+    }
+    .cifri{
+        position: $ab;
+        width: 13%;
+        height: 25%;
+        margin-left: 45.5%;
+        top: 120%;
+    }
+    .bashnya{
+        position: $ab;
+        width: 17%;
+        margin-left: 60%;
+        top: 120%;
+    }
+    .postanovki{
+        position: $ab;
+        border: $bebe;
+        width: 16%;
+        top: 160%;
+        margin-left: $center;
+    }
+    .nashi{
+        color: $goldye;
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .post{
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .box{
+        border: $bebe;
+        width: auto;
+    }
+    .four{
+        cursor: pointer;
+        width: 100%;
+        top: 125%;
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media(max-width: 720px){
+    .teatr{
+        position: $ab;
+        border: $bebe;
+        top: 125%;
+        width: 12%;
+        margin-left: 45%;
+        
+    }
+    .o{
+        color: $goldye;
+        font-size: 12px;
+        font-weight: $small;
+    }
+    .teatre{
+        font-size: 12px;
+        font-weight: $small;
+    }
+    h2{
+        color: $cl;
+        font-weight: 400;
+        font-size: 12px;
+        position: $ab;
+        top: 130%;
+        margin-left: 18%;
+    
+    }
+    .text2{
+        position: $ab;
+        color: $cl;
+        font-size: $little;
+        top: 135%;
+        margin-left: 18%;
+    }
+    .cifri{
+        position: $ab;
+        width: 13%;
+        height: 25%;
+        margin-left: 45.5%;
+        top: 132%;
+    }
+    .bashnya{
+        position: $ab;
+        width: 17%;
+        margin-left: 60%;
+        top: 132%;
+    }
+    .postanovki{
+        position: $ab;
+        border: $bebe;
+        width: 16%;
+        top: 175%;
+        margin-left: $center;
+    }
+    .nashi{
+        color: $goldye;
+        font-size: 12px;
+        font-weight: $small;
+    }
+    .post{
+        font-size: 12px;
+        font-weight: $small;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .box{
+        border: $bebe;
+        width: auto;
+    }
+    .four{
+        cursor: pointer;
+        width: 100%;
+        top: 125%;
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width: 480px){
+    .teatr{
+        position: $ab;
+        border: $bebe;
+        top: 110%;
+        width: 15%;
+        margin-left: 45%;
+        
+    }
+    .o{
+        color: $goldye;
+        font-size: 12px;
+        font-weight: $small;
+    }
+    .teatre{
+        font-size: 12px;
+        font-weight: $small;
+    }
+    h2{
+        color: $cl;
+        font-weight: 400;
+        font-size: 9px;
+        position: $ab;
+        top: 120%;
+        margin-left: 18%;
+    
+    }
+    .text2{
+        position: $ab;
+        color: $cl;
+        font-size: 4px;
+        top: 125%;
+        margin-left: 18%;
+    }
+    .cifri{
+        position: $ab;
+        width: 13%;
+        height: 25%;
+        margin-left: 45.5%;
+        top: 123%;
+    }
+    .bashnya{
+        position: $ab;
+        width: 17%;
+        margin-left: 60%;
+        top: 123%;
+    }
+    .postanovki{
+        position: $ab;
+        border: $bebe;
+        width: 16%;
+        top: 155%;
+        margin-left: $center;
+    }
+    .nashi{
+        color: $goldye;
+        font-size: 12px;
+        font-weight: $small;
+    }
+    .post{
+        font-size: 12px;
+        font-weight: $small;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .box{
+        border: $bebe;
+        width: auto;
+    }
+    .four{
+        cursor: pointer;
+        width: 100%;
+        top: 140%;
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

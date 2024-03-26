@@ -1,0 +1,142 @@
+.bestteatr{
+    position: $ab;
+    top: 235%;
+    width: 60%;
+    margin-left: 20%;
+}
+.partneri{
+    position: $ab;
+    border: $bebe;
+    width: 14%;
+    top: 300%;
+    margin-left: $center;
+}
+.part{
+    color: $goldye;
+    font-size: $size;
+    font-weight: $small;
+}
+.teatra{
+    font-size: $size;
+    font-weight: $small;
+}
+.gaz{
+    position: $ab;
+    top: 320%;
+    width: 60%;
+    margin-left: 18%;
+}
+.gaz2{
+    position: $ab;
+    top: 340%;
+    width: 60%;
+    margin-left: 18%;
+}
+@media(max-width: 1080px){
+    .bestteatr{
+        position: $ab;
+        top: 255%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .partneri{
+        position: $ab;
+        border: $bebe;
+        width: 14%;
+        top: 325%;
+        margin-left: $center;
+    }
+    .part{
+        color: $goldye;
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .teatra{
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .gaz{
+        position: $ab;
+        top: 330%;
+        width: 50%;
+        margin-left: 18%;
+    }
+    .gaz2{
+        position: $ab;
+        top: 350%;
+        width: 50%;
+        margin-left: 18%;
+    }
+}
+@media(max-width: 780px){
+    .bestteatr{
+        position: $ab;
+        top: 255%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .partneri{
+        position: $ab;
+        border: $bebe;
+        width: 14%;
+        top: 325%;
+        margin-left: $center;
+    }
+    .part{
+        color: $goldye;
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .teatra{
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .gaz{
+        position: $ab;
+        top: 335%;
+        width: 40%;
+        margin-left: 30%;
+    }
+    .gaz2{
+        position: $ab;
+        top: 350%;
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+@media(max-width: 480px){
+    .bestteatr{
+        position: $ab;
+        top: 255%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .partneri{
+        position: $ab;
+        border: $bebe;
+        width: 14%;
+        top: 325%;
+        margin-left: $center;
+    }
+    .part{
+        color: $goldye;
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .teatra{
+        font-size: $size2;
+        font-weight: $small;
+    }
+    .gaz{
+        position: $ab;
+        top: 335%;
+        width: 40%;
+        margin-left: 35%;
+    }
+    .gaz2{
+        position: $ab;
+        top: 350%;
+        width: 40%;
+        margin-left: 35%;
+    }
+}

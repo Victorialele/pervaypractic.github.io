@@ -1,0 +1,313 @@
+$cl: white;
+$goldye: #d1a954;
+$ab: absolute;
+$ii: 12px;
+$bebe: none;
+$small: 100;
+$size: 20px;
+$center: 40%;
+$fff: 10%;
+$i: 9px;
+$text: 6px;
+$little: 5px;
+$size2: 15px;
+@mixin OpenSans ($name, $weight, $scr, $style){
+    @font-face {
+        font-family: 'Open Sans';
+        src: url(../fonts/static/OpenSans-Regular.ttf) format("ttf");
+        scr: url(../fonts/static/OpenSans-Medium.ttf) format("ttf");
+        scr: url(../fonts/static/OpenSans-SemiBold.ttf) format ("ttf");
+    }
+}
+body{
+    background-color: #333333;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 100;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.fon{
+    width: 100%;
+}
+.levo{
+    height: 100%;
+    width: 8%;
+    margin-right: 94%;
+    position: $ab;
+
+}
+table{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    width: 50%;
+    border: $bebe;
+    text-align: center;
+    position: $ab;
+    top: 15px;
+}
+tr,td{
+    border: $bebe;
+    color: $cl;
+    font-size: $ii;
+}
+.nomber{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    position: $ab;
+    margin-left: 70%;
+    width: 7%;
+}
+.nomer{
+    border-bottom: solid $goldye;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    position: $ab;
+    top: 35%;
+    margin-right: 34%;
+    color: $cl;
+}
+.text1{
+    font-size: $ii;
+    position: $ab;
+    color: $cl;
+    top: 45%;
+    margin-right: 28%;
+}
+.afisa{
+    position: $ab;
+    border: solid $goldye;
+    width: 7%;
+    height: 5%;
+    top: 60%;
+    margin-right: 51%;
+    background-color: $goldye;
+}
+.bolshoy{
+    position: $ab;
+    width: 20%;
+    height: 55%;
+    margin-left: 55%;
+    top: 25%;
+}
+@media(max-width: 1080px){
+    .container{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .fon{
+        width: 100%;
+    }
+    .levo{
+        height: 100%;
+        width: 8%;
+        margin-right: 94%;
+        position: $ab;
+    
+    }
+    table{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        width: 50%;
+        border: $bebe;
+        text-align: center;
+        position: $ab;
+        top: 15px;
+    }
+    tr,td{
+        border: $bebe;
+        color: $cl;
+        font-size: $ii;
+    }
+    .nomber{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        position: $ab;
+        margin-left: 70%;
+        width: 7%;
+    }
+    .nomer{
+        border-bottom: solid $goldye;
+    }
+    h1{
+        font-size: 30px;
+        font-weight: 600;
+        position: $ab;
+        top: 35%;
+        margin-right: 34%;
+        color: $cl;
+    }
+    .text1{
+        font-size: $i;
+        position: $ab;
+        color: $cl;
+        top: 45%;
+        margin-right: 28%;
+    }
+    .afisa{
+        position: $ab;
+        border: solid $goldye;
+        width: 5%;
+        height: 3%;
+        top: 60%;
+        margin-right: 51%;
+        background-color: $goldye;
+    }
+    .bolshoy{
+        position: $ab;
+        width: 20%;
+        height: 55%;
+        margin-left: 55%;
+        top: 25%;
+    }
+}
+@media(max-width: 720px){
+    .container{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .fon{
+        width: 100%;
+    }
+    .levo{
+        height: 100%;
+        width: 8%;
+        margin-right: 94%;
+        position: $ab;
+    
+    }
+    table{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        width: 50%;
+        border: $bebe;
+        text-align: center;
+        position: $ab;
+        top: 15px;
+    }
+    tr,td{
+        border: $bebe;
+        color: $cl;
+        font-size: $ii;
+    }
+    .nomber{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        position: $ab;
+        margin-left: 70%;
+        width: 7%;
+    }
+    .nomer{
+        border-bottom: solid $goldye;
+    }
+    h1{
+        font-size: 20px;
+        font-weight: 600;
+        position: $ab;
+        top: 35%;
+        margin-right: 34%;
+        color: $cl;
+    }
+    .text1{
+        font-size: $text;
+        position: $ab;
+        color: $cl;
+        top: 45%;
+        margin-right: 28%;
+    }
+    .afisa{
+        position: $ab;
+        border: solid $goldye;
+        width: 3%;
+        height: 1%;
+        top: 60%;
+        margin-right: 51%;
+        background-color: $goldye;
+    }
+    .bolshoy{
+        position: $ab;
+        width: 20%;
+        height: 55%;
+        margin-left: 55%;
+        top: 25%;
+    }
+    
+}
+@media(max-width: 480px){
+    .container{
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .fon{
+        width: 100%;
+    }
+    .levo{
+        height: 100%;
+        width: 8%;
+        margin-right: 94%;
+        position: $ab;
+    
+    }
+    table{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        width: 20%;
+        border: $bebe;
+        text-align: center;
+        position: $ab;
+        top: 15px;
+    }
+    tr,td{
+        border: $bebe;
+        color: $cl;
+        font-size: $ii;
+    }
+    .nomber{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        position: $ab;
+        margin-left: 70%;
+        width: 4%;
+    }
+    .nomer{
+        border-bottom: solid $goldye;
+    }
+    h1{
+        font-size: 10px;
+        font-weight: 600;
+        position: $ab;
+        top: 35%;
+        margin-right: 34%;
+        color: $cl;
+    }
+    .text1{
+        font-size: $little;
+        position: $ab;
+        color: $cl;
+        top: 45%;
+        margin-right: 14%;
+    }
+    .afisa{
+        position: $ab;
+        border: solid $goldye;
+        width: 3%;
+        height: 1%;
+        top: 60%;
+        margin-right: 51%;
+        background-color: $goldye;
+    }
+    .bolshoy{
+        position: $ab;
+        width: 20%;
+        height: 55%;
+        margin-left: 55%;
+        top: 25%;
+    }
+}

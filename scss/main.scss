@@ -1,0 +1,7 @@
+@import "./blocks/_header.scss";
+@import "./blocks/2blocks";
+@import "./blocks/middle";
+@import "./blocks/end";
+@include OpenSans(openases, "regular","../../fonts/static/OpenSans-Regular.ttf","normal");
+@include OpenSans (openases, "medium","../../fonts/static/OpenSans-Medium.ttf", "normal");
+@include OpenSans (openases, "Bold","../../fonts/static/OpenSans-SemiBold.ttf", "normal");
